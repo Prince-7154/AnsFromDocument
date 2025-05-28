@@ -1,7 +1,8 @@
-streamlit
+gradio
 langchain
 faiss-cpu
 sentence-transformers
 pymupdf
 openai
-tqdm
+huggingface_hub
+langchain-community
