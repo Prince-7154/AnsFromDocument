@@ -16,7 +16,7 @@ from langchain.schema import Document
 from langchain.chains import RetrievalQA
 
 # --- Setup ---
-os.environ["OPENAI_API_KEY"] = "52208f4de55db11441df0ab47c6c30c38244ef683d5bf12a37b028ff198cdbb8"
+os.environ["OPENAI_API_KEY"] = "api-key"
 os.environ["OPENAI_API_BASE"] = "https://api.together.xyz/v1"
 
 llm = ChatOpenAI(model_name="mistralai/Mistral-7B-Instruct-v0.1", temperature=0.2)
